@@ -1,0 +1,6 @@
+<!--
+ - Created by heyoo on 19/01/19.
+ -->
+<aura:component extensible="true" abstract="true">
+    {!v.body}
+</aura:component>

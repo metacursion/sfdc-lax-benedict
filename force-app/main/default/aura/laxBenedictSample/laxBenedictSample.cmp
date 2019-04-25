@@ -1,0 +1,16 @@
+<!--
+ - Created by heyoo on 19/01/19.
+ -->
+<aura:component extends="c.laxBenedictCommonNavigation">
+    <aura:attribute name="accounts" type="String"/>
+    <aura:attribute name="opportunities" type="String"/>
+    <aura:attribute name="showSpinner" type="Boolean" default="false"/>
+    <lightning:card title="lax-benedict example usage">
+        <aura:if isTrue="{!v.showSpinner}">
+            <lightning:spinner/>
+        </aura:if>
+        Opportunities: {!v.opportunities} <br/>
+        Accounts: {!v.accounts}
+    </lightning:card>
+    <aura:handler name="init" action="{!c.init}" value="{!this}"/>
+</aura:component>

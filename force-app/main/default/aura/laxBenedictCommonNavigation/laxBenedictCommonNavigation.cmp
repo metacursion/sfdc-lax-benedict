@@ -1,0 +1,9 @@
+<!--
+ - Created by heyoo on 2019-04-25.
+ -->
+<aura:component extensible="true"
+                abstract="true"
+                extends="c.laxBenedictCommonServices"
+                implements="lightning:isUrlAddressable">
+    {!v.body}
+</aura:component>

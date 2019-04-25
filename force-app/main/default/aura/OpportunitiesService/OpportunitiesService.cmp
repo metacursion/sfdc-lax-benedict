@@ -1,0 +1,7 @@
+<!--
+ - Created by heyoo on 2019-04-25.
+ -->
+<aura:component controller="OpportunitiesService">
+    <c:lax context="{!this}" />
+    <aura:method name="getAll"/>
+</aura:component>

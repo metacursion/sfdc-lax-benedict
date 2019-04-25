@@ -1,0 +1,12 @@
+<!--
+ - Created by heyoo on 2019-04-25.
+ -->
+<aura:component extensible="true"
+                abstract="true"
+                extends="c.laxBenedictCommon">
+    <c:AccountsService aura:id="AccountsService"/>
+    <c:OpportunitiesService aura:id="OpportunitiesService" />
+    <lightning:navigation aura:id="navService"/>
+    <aura:handler name="init" action="{!c.init}" value="{!this}"/>
+    {!v.body}
+</aura:component>
