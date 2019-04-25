@@ -1,9 +1,18 @@
-# SFDX App
+# lax-benedict
 
-## Dev, Build and Test
+## Motivation
+To separate concerns on larger Lightning applications - use modular approach to call apex controllers via Promise API.
 
-## Resources
+## Principles
+Use abstract components that:
+1. Hold stateless functions like getErrors, showToast, etc (see laxBenedictCommon)
+2. Aggregate common services for the module (see laxBenedictCommonServices)
+3. Implement specific interfaces for narrowed scope (see laxBenedictCommonNavigation)
 
-## Description of Files and Directories
+## Example
+See sample component source
 
-## Issues
+## Caveats
+With LWC you can bypass `lax` package entirely. Have a look in `Call an Apex Method Imperatively` section in LWC docs.
+
+Credit: uses `lax` package from https://github.com/ruslan-kurchenko/sfdc-lax
