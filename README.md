@@ -32,5 +32,7 @@ I prefer to keep my method names title case (`GetAll`) and then JS methods camel
 ## Other
 Your lax services can do more than just return value. A common use case I found is to parse JSON returned from external service. Others could be massaging data, or even calling other services.
 
+Lax is salmon in Swedish. Unsure what Ruslan meant by lax in his project, but I figured salmon benedict is a good project name. Plus I had a little attempt called gravalax (which is also type of salmon) - project/POC to automatically generate service components from specified apex classes: https://github.com/metacursion/gravalax
+
 
 Credit: uses `lax` package from https://github.com/ruslan-kurchenko/sfdc-lax
